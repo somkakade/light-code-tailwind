@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-color-primary text-color-white tracking-wider">
+    <header class="sticky top-0 z-50 header">
+        <nav class="container flex justify-between items-center">
+            <div class="py-5 text-color-secondary font-bold text-3xl z-50">
+                <a href="#">
+                    <span class="text-color-white">Light</span>Code
+                </a>
+            </div>
+            <div>
+                <ul class="hidden lg:flex items-center space-x-5">
+                    <li><a href="#" class="hover:text-color-secondary ease-in duration-150">Home</a></li>
+                    <li><a href="#" class="hover:text-color-secondary ease-in duration-150">Features</a></li>
+                    <li><a href="#" class="hover:text-color-secondary ease-in duration-150">Testimonials</a></li>
+                    <li><a href="#" class="hover:text-color-secondary ease-in duration-150">Pricing</a></li>
+                    <li><a href="#" class="hover:text-color-secondary ease-in duration-150">Blog</a></li>
+                    <li><a href="#" class="hover:text-color-secondary ease-in duration-150">Contact</a></li>
+                    <li><button
+                            class="bg-color-secondary px-9 py-1 text-lg leading-relaxed rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">Free</button>
+                    </li>
+                </ul>
+            </div>
+            <!-- Mobile Screen -->
+
+            <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+                <i id="faSolid" class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menu" class="bg-color-primary-dark h-[100vh] absolute inset-0 hidden">
+                <ul class="h-full grid place-items-center py-20">
+                    <li><a href="#" id="hLink" class="hover:text-color-secondary ease-in duration-150">Home</a></li>
+                    <li><a href="#" id="hLink" class="hover:text-color-secondary ease-in duration-150">Features</a></li>
+                    <li><a href="#" id="hLink" class="hover:text-color-secondary ease-in duration-150">Testimonials</a>
+                    </li>
+                    <li><a href="#" id="hLink" class="hover:text-color-secondary ease-in duration-150">Pricing</a></li>
+                    <li><a href="#" id="hLink" class="hover:text-color-secondary ease-in duration-150">Blog</a></li>
+                    <li><a href="#" id="hLink" class="hover:text-color-secondary ease-in duration-150">Contact</a></li>
+                    <li><button
+                            class="bg-color-secondary px-9 py-3 text-xl rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">Free</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="" class="relative">
+            <div class="blob1"></div>
+            <div class="blob2"></div>
+            <div class="container py-10">
+                <div class="flex flex-col items-center md:flex-row">
+                    <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+                        <h1 class="text-4xl md:6xl font-bold mb-4">Awesome App for Your Financial</h1>
+                        <p class="mb-10 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt eos non recusandae velit, tenetur amet! Harum, perferendis repudiandae. Ut iusto
+                            aliquid, ex a ullam accusamus quo enim ab ipsum nam?</p>
+                        <button
+                            class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease duration-150">Download
+                            App</button>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="./Images/hero4.png" alt="" class="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-color-primary-light">
+            <div class="container py-10">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h3 class="font-bold text-color-secondary mb-4">Our Future</h3>
+                    <h1 class="text-4xl md:6xl font-bold mb-4">Easy To Manage Your All Payments By Our App</h1>
+                </div>
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-8 lg:px-8">
+                    <div
+                        class="border border-solid border-color-gray text-center py-20 px-4 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-4 px-6">
+                            <i class="fa-solid fa-calendar-days text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Expense Tracking</h3>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+                            impedit?</p>
+                    </div>
+                    <div
+                        class="bg-color-primary-dark border border-solid border-color-gray text-center py-20 px-4 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-4 px-6">
+                            <i class="fa-solid fa-chart-column text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Finance Snapshot</h3>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+                            impedit?</p>
+                    </div>
+                    <div
+                        class="border border-solid border-color-gray text-center py-20 px-4 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-4 px-6">
+                            <i class="fa-solid fa-phone text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Support 24/7</h3>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+                            impedit?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="money-saving">
+            <div class="container pt-10 relative">
+                <div class="blob1"></div>
+                <div class="blob2"></div>
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <div class="mb-12 md:w-1/2">
+                        <img src="./Images/hero3.png" alt="" class="">
+                    </div>
+                    <div class="text-center md:text-left md:w-1/2 md:ml-20">
+                        <h4 class="font-bold text-color-secondary mb-4">Saving Money</h4>
+                        <h1 class="text-4xl md:6xl font-bold mb-4">Best Financing App To Save Your Money</h1>
+                        <p class="leading-relaxed mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                            harum quasi quidem magni eum eveniet aspernatur nam dignissimos velit at modi impedit
+                            molestiae id commodi corrupti, beatae in alias quo.</p>
+                        <button
+                            class="bg-color-secondary py-3 px-9 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-150">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-20">
+            <div class="container">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">How It Works</h4>
+                    <h1 class="text-4xl md:6xl font-bold mb-4">Grow Up Your Money Saving</h1>
+                </div>
+                <div class="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-6">
+                    <!-- Card 1 -->
+                    <div class="text-center cursor-pointer relative">
+                        <div
+                            class="bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+                            <p
+                                class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('/Images/line.png')] lg:after:absolute lg:after:top-4 lg:after:left-[280px] 2xl:after:left-80 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">
+                                1</p>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Install The App</h3>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat,
+                            voluptatum!</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="text-center cursor-pointer relative">
+                        <div class="inline-block px-6 py-3 rounded-lg bg-color-secondary">
+                            <p
+                                class="text-6xl lg:after:absolute lg:after:content-[''] lg:after:flex lg:after:bg-[url('/Images/line-bottom.png')] lg:after:top-4 lg:after:left-[280px] 2xl:after:left-80 lg:after:w-52 lg:after:h-7 lg:after:bg-no-repeat">
+                                2</p>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Setup Your Profile</h3>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat,
+                            voluptatum!</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="text-center cursor-pointer">
+                        <div
+                            class="bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+                            <p class="text-6xl">3</p>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Enjoy The Features</h3>
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat,
+                            voluptatum!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="">
+            <div class="container py-20">
+                <div class="text-center m-auto md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">User Review</h4>
+                    <h1 class="text-4xl md:6xl font-bold mb-4">What Clients Say About Our App After Use It</h1>
+                </div>
+                <div class="mt-8">
+                    <div class="flex items-center justify-center flex-wrap">
+                        <img onclick="showReview()" src="./Images/user1.jpg" alt=""
+                            class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic active-pic">
+                        <img onclick="showReview()" src="./Images/user2.jpg" alt=""
+                            class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic">
+                        <img onclick="showReview()" src="./Images/user3.jpg" alt=""
+                            class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic">
+                        <img onclick="showReview()" src="./Images/user4.jpg" alt=""
+                            class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic">
+                        <img onclick="showReview()" src="./Images/user5.jpg" alt=""
+                            class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic">
+                    </div>
+                </div>
+                <div class="grid place-items-center text-center m-auto md:w-4/5 min-h-[40vh]">
+                    <div class="user-text active-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, facilis.</p>
+                        <h4 class="font-bold text-color-secondary mb-1">Markin Nesus</h4>
+                        <p>IOS Developer</p>
+                    </div>
+                    <div class="user-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, facilis.</p>
+                        <h4 class="font-bold text-color-secondary mb-1">Tony Stark</h4>
+                        <p>Javascript Developer</p>
+                    </div>
+                    <div class="user-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, facilis.</p>
+                        <h4 class="font-bold text-color-secondary mb-1">Aron Finch</h4>
+                        <p>ROR Developer</p>
+                    </div>
+                    <div class="user-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, facilis.</p>
+                        <h4 class="font-bold text-color-secondary mb-1">MAXWELL</h4>
+                        <p>PHP Developer</p>
+                    </div>
+                    <div class="user-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, facilis.</p>
+                        <h4 class="font-bold text-color-secondary mb-1">SURESH</h4>
+                        <p>.NET Developer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-color-primary">
+            <div class="container py-20">
+                <div class="text-center m-auto md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">Pricing</h4>
+                    <h1 class="text-4xl md:6xl font-bold mb-4">Get In Reasonable Price</h1>
+                </div>
+                <!-- Round Switch -->
+                <div class="mt-5 flex items-center justify-center gap-4 mb-7">
+                    <p>Bill Monthly</p>
+                    <label for="" class="relative inline-block w-20 h-8 rounded-full">
+                        <input type="checkbox" class="peer opacity-0 w-0 h-0">
+                        <span
+                            class="absolute top-0 left-0 right-0 bottom-0 bg-color-primary-light border border-solid border-color-gray rounded-full duration-300 before:content-[''] before:absolute before:w-6 before:h-6 before:bottom-1 before:left-1 before:rounded-full before:bg-color-white before:duration-300 peer-checked:before:translate-x-12 peer-checked:bg-color-secondary"></span>
+                    </label>
+                    <p>Bill Anually</p>
+                </div>
+                <!--  -->
+                <div class="gird lg:grid-cols-3 md:grid-cols-2 gap-5">
+                    <div class="flex flex-col md:flex-row gap-7">
+                        <div class="card relative h-auto w-auto">
+                            <div
+                                class="front px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full">
+                                <div class="relative">
+                                    <p
+                                        class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                        20 <span class="text-sm font-normal tracking-widest">/per month</span>
+                                    </p>
+                                </div>
+                                <div class="py-10">
+                                    <h3 class="text-xl font-bold pb-3">Basic</h3>
+                                    <p>For Beginner Who Want To Scale Business Globaly</p>
+                                </div>
+                                <div>
+                                    <ul class="space-y-4 pb-10">
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Expense Management</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Card Management</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                            <span class="pl-4 ">Instant Statistics</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                            <span class="pl-4 ">Booking Function</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                            <span class="pl-4 ">Accounting System</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="card-btn">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="card relative h-auto w-auto">
+                            <div
+                                class="front px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full">
+                                <div class="relative">
+                                    <p
+                                        class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                        50 <span class="text-sm font-normal tracking-widest">/per month</span>
+                                    </p>
+                                </div>
+                                <div class="py-10">
+                                    <h3 class="text-xl font-bold pb-3">Standard</h3>
+                                    <p>For Beginner Who Want To Scale Business Globaly</p>
+                                </div>
+                                <div>
+                                    <ul class="space-y-4 pb-10">
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Expense Management</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Card Management</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Instant Statistics</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Booking Function</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-gray"></i>
+                                            <span class="pl-4 ">Accounting System</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="card-btn">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="card relative h-auto w-auto">
+                            <div
+                                class="front px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full">
+                                <div class="relative">
+                                    <p
+                                        class="text-6xl pl-2 font-bold before:content-['$'] before:absolute before:text-sm before:top-0 before:left-0">
+                                        100 <span class="text-sm font-normal tracking-widest">/per month</span>
+                                    </p>
+                                </div>
+                                <div class="py-10">
+                                    <h3 class="text-xl font-bold pb-3">Premium</h3>
+                                    <p>For Beginner Who Want To Scale Business Globaly</p>
+                                </div>
+                                <div>
+                                    <ul class="space-y-4 pb-10">
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Expense Management</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Card Management</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Instant Statistics</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Booking Function</span>
+                                        </li>
+                                        <li><i class="fa-solid fa-bookmark text-color-secondary"></i>
+                                            <span class="pl-4 ">Accounting System</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="card-btn">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog section -->
+        <section>
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">Innovation And Quality Improvement</h4>
+                    <h1 class="text-4xl md:6xl font-bold mb-4">Latest Update, Solution And Company News</h1>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <!-- card 1 -->
+                    <div class="pb-4 md:pb-0 lg:pb-0">
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./Images/blog1.jpg" alt=""
+                                class="lg:h-full w-full hover:scale-125 transition duration-200 ease-in-out">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+                            <a href="#"
+                                class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline transition-all duration-300 ease-out">Lorem
+                                ipsum, dolor sit amet consectetur adipisicing.</a>
+                            <p class="leading-relaxed my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Exercitationem eaque quidem, et blanditiis culpa qui ut quaerat delectus ea, voluptate
+                                quibusdam impedit rerum doloribus non nesciunt id officia possimus unde!</p>
+                            <a href="#"
+                                class="inline-block font-bold underline hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize hover:no-underline">Read More</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="pb-4 md:pb-0 lg:pb-0">
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./Images/blog2.jpg" alt=""
+                                class="lg:h-full w-full hover:scale-125 transition duration-200 ease-in-out">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+                            <a href="#"
+                                class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline transition-all duration-300 ease-out">Lorem
+                                ipsum, dolor sit amet consectetur adipisicing.</a>
+                            <p class="leading-relaxed my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Exercitationem eaque quidem, et blanditiis culpa qui ut quaerat delectus ea, voluptate
+                                quibusdam impedit rerum doloribus non nesciunt id officia possimus unde!</p>
+                            <a href="#"
+                                class="inline-block font-bold underline hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize hover:no-underline">Read More</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="pb-4 md:pb-0 lg:pb-0">
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./Images/blog3.jpg" alt=""
+                                class="lg:h-full w-full hover:scale-125 transition duration-200 ease-in-out">
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+                            <a href="#"
+                                class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline transition-all duration-300 ease-out">Lorem
+                                ipsum, dolor sit amet consectetur adipisicing.</a>
+                            <p class="leading-relaxed my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Exercitationem eaque quidem, et blanditiis culpa qui ut quaerat delectus ea, voluptate
+                                quibusdam impedit rerum doloribus non nesciunt id officia possimus unde!</p>
+                            <a href="#"
+                                class="inline-block font-bold underline hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize hover:no-underline">Read More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-color-primary-light">
+            <div class="container py-20">
+                <div class="text-center md:w-2/3 m-auto">
+                    <h1 class="text-4xl md:6xl font-bold">Download App Now And Save Your Money</h1>
+                    <p class="leading-relaxed pt-2">Serving an impressive list of long-term money with experience and
+                        experties in multiple industries.</p>
+
+                    <div class="flex flex-col md:flex-row items-center justify-center gap-5 pt-10">
+                        <a href="" class="bg-color-white w-44 h-16 rounded-lg grid place-items-center hover:opacity-70">
+                            <img src="./Images/ios-store-dark.png" alt="" class="">
+                        </a>
+                        <a href="" class="bg-color-white w-44 h-16 rounded-xl grid place-items-center hover:opacity-70">
+                            <img src="./Images/g-play-dark.png" alt="" class="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Form Section -->
+        <section>
+            <div class="container py-10 md:py-20">
+                <div class="text-center md:w-1/2 m-auto mb-10">
+                    <h4 class="text-color-secondary font-bold">Have A Question</h4>
+                    <h1 class="text-4xl md:6xl font-bold mb-4">Get In Touch</h1>
+                </div>
+                <form>
+                    <div class="w-full m-auto md:w-2/3 text-center">
+                        <div class="grid md:grid-cols-2 gap-5 mb-4 text-color-primary-dark">
+                            <input type="text"
+                                class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary"
+                                placeholder="Enter Name">
+                            <input type="email"
+                                class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary"
+                                placeholder="Enter Email">
+                            <input type="tel"
+                                class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary"
+                                placeholder="Enter Phone">
+                            <input type="company"
+                                class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary"
+                                placeholder="Enter Company">
+                        </div>
+                        <div>
+                            <textarea name="" id="" cols="30" rows="4"
+                                class="text-color-primary-dark bg-gray-50 w-full rounded-lg p-3 focus:outline-none focus:border-color-secondary text-sm"></textarea>
+                        </div>
+                        <div class="text-center pt-3">
+                            <button
+                                class="bg-color-secondary px-9 py-3 rounded-md font-bold hover:opacity-90 ease-in duration-300 capitalize">Send
+                                Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="grid gap-6 md:grid-cols-3 mb-3">
+                <div class="space-y-6">
+                    <h4 class="font-bold text-lg">About App</h4>
+                    <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <div class="flex items-center gap-6">
+                        <p>Follow Us</p>
+                        <i class="fa-brands fa-facebook-f cursor-pointer hover:text-color-secondary"></i>
+                        <i class="fa-brands fa-youtube cursor-pointer hover:text-color-secondary"></i>
+                        <i class="fa-brands fa-twitter cursor-pointer hover:text-color-secondary"></i>
+                        <i class="fa-brands fa-instagram cursor-pointer hover:text-color-secondary"></i>
+                        <i class="fa-brands fa-whatsapp cursor-pointer hover:text-color-secondary"></i>
+                    </div>
+                </div>
+                <div class="flex justify-between md:justify-around">
+                    <div class="space-y-6">
+                        <h4 class="font-bold text-lg">Quick Links</h4>
+                        <ul>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Home</a></li>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Features</a>
+                            </li>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Product</a>
+                            </li>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Services</a>
+                            </li>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Other
+                                    Services</a></li>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="space-y-6">
+                        <h4 class="font-bold text-lg">Help</h4>
+                        <ul>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Home</a></li>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Features</a>
+                            </li>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Product</a>
+                            </li>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Services</a>
+                            </li>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Other
+                                    Services</a></li>
+                            <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <h4 class="font-bold text-lg">Newsletter</h4>
+                    <p>Subscribe With Email And Loads Of News Will Be Sent To You</p>
+                    <div class="flex items-center">
+                        <input type="email"
+                            class="text-color-gray rounded-l-md md:focus:outline-none bg-color-white p-2 md:p-3 w-2/3"
+                            placeholder="Enter Your Email">
+                        <button type="submit"
+                            class="bg-color-secondary px-4 py-2 md:py-3 md:px-5 rounded-r-md hover:opacity-90"><span
+                                class="fa-solid fa-chevron-right"></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center py-10 border-t border-color-gray">
+                <p>2024 &copy; SSK.All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+        // Sticky Header
+
+        const navbar = document.querySelector('.header');
+
+        window.onscroll = () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-color-primary-dark');
+                navbar.classList.add('border-b');
+                navbar.classList.add('border-color-gray');
+            }
+            else{
+                navbar.classList.remove('bg-color-primary-dark');
+                navbar.classList.remove('border-b');
+                navbar.classList.remove('border-color-gray');
+            }
+        }
+
+
+        const hamburger = document.querySelector("#hamburger");
+        const menu = document.querySelector("#menu");
+        const hLink = document.querySelector("hLink");
+        const faSolid = document.querySelector('faSolid');
+
+        hamburger.addEventListener('click', () => {
+            menu.classList.toggle("hidden");
+            faSolid.classList.toggle('fa-xmark');
+        })
+
+
+
+        // Testimonials
+        const userTexts = document.querySelector('.user-text');
+        const userPics = document.querySelector('.user-pic');
+
+        function showReview() {
+            for (userPic of userPics) {
+                userPic.classList.remove('active-pic');
+            }
+            for (userText of userTexts) {
+                userText.classList.remove('active-text')
+            }
+            let i = Array.from(userPics).indexOf(event.target);
+
+            userPics[i].classList.add('active-pic');
+            userTexts[i].classList.add('active-text');
+        }
+
+    </script>
+</body>
+
+</html>
